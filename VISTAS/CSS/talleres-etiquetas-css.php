@@ -19,7 +19,7 @@
 </nav>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <img src="../../IMG/logo.gif">
+            <img src="../../IMG/logo.png">
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-dark">
