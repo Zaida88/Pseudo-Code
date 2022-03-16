@@ -18,21 +18,17 @@
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <img src="../../IMG/logo.gif">
-        </div>
-    </nav>
+    <div class="container">
+      <img src="../../IMG/logo.png">
+    </div>
+  </nav>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-4 mb-lg-0 ">
                     <li class="nav-item">
                         <a class="nav-link active fs-6" aria-current="page"
-                            href="../cursos.php"><b>Cursos</b></a>
-                     </li>&nbsp;
-                    <li class="nav-item">
-                        <a class="nav-link active fs-6" aria-current="page"
-                            href="../../VISTAS/HTML/html-curso-etiquetas.php"><b>Cursos</b></a>
+                            href="../talleres.php"><b>Talleres</b></a>
                     </li>&nbsp;
                     <li class="nav-item">
                         <a class="btn btn-dark fs-6" href="../../login.php">Cerrar sesión</a>
