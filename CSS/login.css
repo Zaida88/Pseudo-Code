@@ -51,13 +51,12 @@ main{
 }
 .caja__trasera button{
     padding: 10px 40px;
-    border: 2px solid #fff;
-    background: black;
+    background-color: #7fccde;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
-    color: white;
-    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
     transition: all 300ms;
 }
 .caja__trasera button:hover{
@@ -138,4 +137,148 @@ main{
     .contenedor__login-register form{
         position: relative;
     }
+}
+@media only screen and (max-width: 800px){
+
+    body{
+        background-image: url(https://www.adobe.com/es/express/create/media_1d0f969f41aed82c13509ec08a8bb41a859561318.jpeg?width=400&format=jpeg&optimize=medium);
+    }
+    .contenedor__todo{
+        width: 100%;
+        max-width: 850px;
+
+    }
+    .caja__trasera{
+        width: 100%;
+        height: 360px;
+        border-radius: 2%;
+    }
+    .caja__trasera button{
+        font-size: 12px;
+        margin-left: 70px;
+    }
+    .contenedor__login-register{
+        width: 100%;
+        max-width: 320px;      
+    }
+    .formulario__login{
+        max-width: 340px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .formulario__register{
+        margin-left: -50px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .caja__trasera button{
+        margin-left: 30px;
+    }
+    .formulario__login{
+        max-width: 340px;
+        max-height: 550px;
+    }
+    .formulario__register{
+        margin-left: -80px;
+    }
+}
+@media only screen and (max-width: 680px){
+    .caja__trasera button{
+        margin-left: 30px;
+    }
+    .formulario__login{
+        max-width: 340px;
+        max-height: 550px;
+    }
+    .formulario__register{
+        margin-left: -90px;
+    }
+}
+@media only screen and (max-width: 665px){
+    .formulario__register{
+        margin-left: -100px;
+    }
+}
+@media only screen and (max-width: 655px){
+    .contenedor__login-register {
+        display: block;
+        margin-left: -150px;
+    }
+    .formulario__login{
+        margin-top: 150px;
+        margin-left: 300px;
+    }
+    .formulario__register{
+        margin-top: 100px;
+    }
+    .caja__trasera {
+        display: block;
+        width: 80%;
+        margin-left: 80px;
+        padding: 0;
+        margin-top: -400px;
+        border-radius: 100px;
+        opacity: 1;
+    }
+    .caja__trasera div p,
+    .caja__trasera div button{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .caja__trasera div button{
+        margin-left: 126px;
+    }
+    .contenedor__login-register form{
+        padding: 50px 20px;
+        margin-top: 150px;
+    }
+
+
+}
+@media only screen and (max-width: 600px) {
+    .contenedor__login-register {
+        margin-left: -210px;
+    }
+    .caja__trasera {
+        width: 70vw;
+        margin-left: 60px;
+    }
+    .caja__trasera div p,
+    .caja__trasera div button{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .caja__trasera div button{
+        margin-left: 90px;
+    }
+    
+}
+@media only screen and (max-width: 540px) {
+    .caja__trasera {
+        width: 100vw;
+        margin-left: -20px;
+    }
+    .contenedor__login-register {
+        margin-left: -250px;
+        width: 100vw;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    .contenedor__login-register {
+        margin-left: -310px;
+    }
+    .caja__trasera {
+        width: 100vw;
+        margin-left: -20px;
+    }
+    .caja__trasera div p,
+    .caja__trasera div button{
+        margin-top: 2px;
+        text-align: center;
+    }
+    .caja__trasera div button{
+        margin-left: 60px;
+    }
+    
 }
