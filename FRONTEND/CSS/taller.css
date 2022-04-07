@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+.header__imagen {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.imagen-header {
+    width: 100%;
+}
+
+body {
+    background-image: url("../Img/fondo-inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto, sans-serif;
+}
+
+.taller__titulo {
+    font: 300% sans-serif;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: #436C94;
+    font-family: Arial;
+}
+#botones__talleres{
+    padding-top: 200px;
+    text-align: center;
+    
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+.btn-1{
+    color: white;
+    background-color: #00c1ff;
+    font: 3em sans-serif;
+}
+
+.btn-2{
+    color: white;
+    background-color: #00c1ff;
+    font: 3em sans-serif;
+}
+
+#botones__back{
+    padding-top: 200px;
+    text-align: left;
+    
+}
+.btn-3{
+    color: white;
+    background-color:#00c1ff;
+    font: 1,5em sans-serif;
+}
